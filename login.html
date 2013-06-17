@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<title>ログイン｜社宅管理システム</title>
+<link href="css/office_sys.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+
+  <div id="title">
+    <h1><img src="img/h1_title.jpg" alt="社宅管理システム" width="1000" height="50" /></h1>    <p class="list_nav">&nbsp;</p>
+    <h2>ログイン</h2>
+    <br clear="all" />
+  </div>
+
+  <div id="content_box">
+    <form id="form1" name="form1" method="post">
+
+      <div class="left_box">
+        <!--START ログイン-->
+
+      	<table>
+          <tr>
+            <th>従業員番号</th>
+            <td colspan="2"><input name="shikikin" id="shikikin" type="text" class="input_8char" /></td>
+            </tr>
+        </table>
+
+      	<table>
+          <tr>
+            <th width="60">パスワード</th>
+            <td colspan="4"><input name="koushinryou" id="koushinryou" type="password" class="input_8char" /></td>
+            </tr>
+        </table>
+
+        <!--END ログイン-->
+      </div>
+
+      <p class="clear">&nbsp;</p>
+
+      <div class="submit_btn">
+        <input type="button" name="button" id="button" value="　ログイン　" onClick="document.location.href='menu.html'" />
+      </div>
+
+    </form>
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>
+
+<div id="footer">
+  <p class="footer_text">&copy;千代田開発株式会社</p>
+</div>
+
+</body>
+</html>
